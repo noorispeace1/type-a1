@@ -7,7 +7,7 @@ The any type is essentially a "get out of jail free" card for the compiler. When
 TypeScript
 
 // The "any" trap
-let data: any = { name: "Gemini" };
+
 data.incrementCount(); // No compile-time error, but will crash at runtime!
 Why unknown is the Professional Choice
 The unknown type is the type-safe sibling of any. Like any, it can hold any value. However, unlike any, the compiler will not let you perform any operations on an unknown value until you prove what it is.
